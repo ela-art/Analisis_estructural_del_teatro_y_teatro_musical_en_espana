@@ -1,25 +1,11 @@
-Evolución del Sector Teatral en España (2016–2023)
-Análisis del teatro en España + EDA específico del teatro musical
-Dataset principal + Dataset musical + Datos complementarios
-🟦 1. Introducción
+📊 Evolución del Sector Teatral en España (2016–2023)
+1. Descripción del proyecto
 
-Este proyecto analiza la evolución del sector teatral en España entre 2016 y 2023, incluyendo:
+Este repositorio analiza la evolución del sector teatral en España entre 2016 y 2023, integrando un EDA principal del teatro nacional y un EDA específico del teatro musical, uno de los segmentos más relevantes de las artes escénicas.
 
-Volumen anual de espectadores
+El proyecto combina datos oficiales del Ministerio de Cultura con información recopilada manualmente sobre producciones musicales en España, complementado con indicadores clave sobre asistencia y financiación pública.
 
-Ingresos generados por el teatro
-
-Número de obras estrenadas
-
-Impacto de la pandemia en el sector
-
-Recuperación y tendencias recientes
-
-Además, incorpora un análisis específico del teatro musical, uno de los motores económicos y culturales más relevantes dentro del teatro español.
-
-El proyecto combina datos oficiales del Ministerio de Cultura, datos recopilados manualmente sobre la industria del musical y varios datasets complementarios para contextualizar el comportamiento del público y la inversión cultural en España.
-
-🟩 2. Estructura del repositorio
+2. Contenido del repositorio
 /data_principal/
     teatro_espana_2016_2023_limpio.csv
     Eda_teatro_espana.ipynb
@@ -35,120 +21,42 @@ El proyecto combina datos oficiales del Ministerio de Cultura, datos recopilados
 
 README.md
 
-🟥 3. Objetivos del proyecto
-✔ Analizar la evolución del teatro en España:
+3. Objetivos
 
-Espectadores por año
+Analizar la evolución de espectadores, ingresos y producciones del teatro en España.
 
-Recaudación total
+Estudiar el comportamiento y tendencias del teatro musical como subindustria.
 
-Número de musicales/obras estrenadas
+Incorporar datos contextuales para entender el impacto social y económico del sector.
 
-✔ Identificar tendencias clave:
+Identificar patrones, cambios estructurales y efectos de la pandemia en 2021.
 
-Caída por pandemia en 2021
+4. Resumen de resultados
+Teatro en España (2016–2023)
 
-Recuperación acelerada en 2022–2023
+Estabilidad y crecimiento hasta 2019.
 
-Ciclos de producción y consumo
+Descenso abrupto en 2021 por la pandemia.
 
-✔ Estudiar el teatro musical como subindustria:
+Recuperación sólida en 2022–2023 en ingresos, espectadores y producción.
 
-Volumen de producciones
+Teatro musical
 
-Principales productoras
+Alta concentración en Stage, SOM, LETSGO y Beon.
 
-Teatros con mayor actividad
+Actividad centrada en los principales teatros de Madrid.
 
-Comparación por años
+Crecimiento significativo desde 2021 y consolidación del formato de gira.
 
-✔ Integrar datos contextuales:
+Datos complementarios
 
-Inversión cultural (% del PIB)
+El nivel local es el que mayor porcentaje del PIB destina a cultura.
 
-Perfil demográfico de la asistencia
+Jóvenes y mujeres presentan los mayores niveles de asistencia.
 
-Precios del musical en 2026 (muestra manual real)
+El precio de los musicales muestra diferencias importantes por obra, productor y teatro.
 
-🟨 4. Contenido del análisis (resumen)
-📌 EDA 1 – Teatro en España (2016–2023)
-
-Incluye:
-
-Limpieza y normalización de datos
-
-Gráficas de evolución anual
-
-Comparativa entre espectadores e ingresos
-
-Detección de anomalías (impacto 2021)
-
-Conclusiones económicas y culturales
-
-Guarda el CSV final limpio
-
-📌 EDA 2 – Teatro musical en España
-
-Incluye:
-
-Limpieza del dataset musical
-
-Distribución por productora
-
-Distribución por teatro
-
-Giras sí/no
-
-Evolución por año
-
-Heatmaps y comparativas
-
-Conclusiones específicas del segmento musical
-
-📌 Datasets complementarios
-
-No forman parte del EDA principal, pero enriquecen el proyecto:
-
-Asistencia por sexo y edad
-
-% del PIB destinado a cultura
-
-Precios de musicales en 2026
-
-🟦 5. Principales conclusiones
-🟧 Teatro en España:
-
-Estabilidad pre-pandemia (2017–2019)
-
-Colapso histórico en 2021 por restricciones
-
-Fuerte recuperación en 2022 y 2023
-
-Ingresos y espectadores evolucionan en paralelo
-
-Aumento significativo de obras estrenadas en los últimos años
-
-🟩 Teatro musical:
-
-Concentrado en Stage, SOM, LETSGO y Beon
-
-Actividad centrada en Madrid (Coliseum, Lope de Vega, Rialto…)
-
-Aumento notable de producciones desde 2021
-
-La gira se consolida como estrategia clave
-
-El musical actúa como motor económico del teatro español
-
-🟦 Contexto:
-
-La Administración Local es la que mayor % del PIB destina a cultura
-
-Los jóvenes (15–34) tenían antes de la pandemia la mayor asistencia
-
-Los precios del musical varían enormemente según producción y teatro
-
-🟫 6. Tecnologías utilizadas
+5. Tecnologías utilizadas
 
 Python
 
@@ -158,18 +66,8 @@ Matplotlib / Seaborn
 
 Jupyter Notebook
 
-CSV / UTF-8 / UTF-8-SIG
+CSV (UTF-8 / UTF-8-SIG)
 
-🟪 7. Próximas ampliaciones
+6. Autora
 
-EDA por Comunidad Autónoma (dataset listo pero pendiente de análisis)
-
-Gráficas comparativas entre CCAA
-
-Integración con Power BI / Tableau
-
-Comparativa teatro vs. musical vs. artes escénicas globales
-
-🟦 8. Autora
-
-Proyecto realizado por Ela Ruiz González, artista y analista de datos especializada en el cruce entre artes escénicas y tecnología.
+Proyecto desarrollado por Ela Ruiz González, artista y analista de datos especializada en el cruce entre artes escénicas y tecnología.
