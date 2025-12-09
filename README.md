@@ -1,102 +1,47 @@
-Proyecto: Análisis Estructural del Teatro y del Teatro Musical en España (2010–2025)
+Data Analysis del Sector del Teatro Musical en España (2011–2025)
 
-Proyecto de análisis del sector teatral en España con foco en tres áreas: teatro general, teatro musical y turismo cultural.
-Basado en datos oficiales, incluye limpieza exhaustiva, estructuración por bloques y exploración de patrones 
-para entender la evolución del sector entre 2010 y 2025.
+Proyecto de análisis integral del teatro musical en España durante el periodo 2011–2025. El trabajo combina tres líneas de datos complementarias:
 
-BLOQUE 1 — Teatro en España (Sector General)
+Producciones de teatro musical: obras, productoras, teatros, periodos de actividad y estructura del sector.
 
-Archivos incluidos:
+Precios de musicales (2025): rangos de precio mínimo, máximo y estándar en producciones actuales.
 
-teatro_espana_2023_2024_limpio.csv
+Hábitos de consumo cultural: evolución anual del porcentaje de asistencia y diferencias por género.
 
-recaudacion_teatro_ccaa_2019_2024.csv
+El objetivo es ofrecer una visión analítica y coherente del mercado, integrando producción, demanda y pricing, y preparar la base para visualizaciones y modelos posteriores.
 
-comparativa_cine_teatro_2020_2024.csv
+Objetivos
 
-porcentaje_PIB_cultura_2023_limpio.csv
+Construir datasets limpios, consolidados y replicables.
 
-asistencia_artes_escenicas_2010_2025_limpio.csv
+Analizar tendencias de asistencia y variaciones interanuales (2011–2025).
 
-eda_teatro_espana_2023_2024.ipynb
+Describir la evolución de la oferta de musicales y su concentración por teatro o productora.
 
-eda_recaudacion_teatro_ccaa_2019_2024.ipynb
+Evaluar el comportamiento de precios en las producciones activas en 2025.
 
-eda_comparativa_cine_teatro_2020_2024.ipynb
-
-eda_porcentaje_PIB.ipynb
-
-eda_asistencia_artes_escenicas2025.ipynb
-
-Objetivos reales del bloque :
-
-Evolución del teatro por año
-
-Recaudación por CCAA
-
-Comparativa Cine vs Teatro
-
-Indicadores económicos (PIB Cultura)
-
-Asistencia a artes escénicas (2010–2025)
-
-BLOQUE 2 — Teatro Musical
-
-Archivos incluidos :
-
-musicales_limpio.csv
-
-precios_musicales_limpio_final.csv
-
-eda_musicales_limpio.ipynb
-
-eda_precios_musicales_limpio.ipynb
-
-Objetivos reales del bloque:
-
-Análisis estructural del teatro musical
-
-Estrenos, reposiciones, demanda
-
-Estrategias de precios
-
-Productoras líderes
-
-Tendencias de recaudación
-
-BLOQUE 3 — Turismo Cultural
-
-Archivos incluidos:
-
-turismo_cultural_espana_limpio.csv
-
-eda_turismo_cultural_espana_v2.ipynb
-
-Objetivos reales del bloque:
-
-Viajes motivados por cultura
-
-Tendencias de turismo cultural
-
-Relación entre turismo y consumo teatral
+Dejar preparado un entorno sólido para dashboards en Power BI y análisis avanzados.
 
 Metodología
 
-Integración y estandarización de datasets
+Limpieza y normalización de datos (Pandas).
 
-Limpieza completa (nulos, duplicados, normalización)
+Análisis exploratorio mediante estadísticas descriptivas, visualizaciones y comparativas.
 
-EDA por bloque y por dataset
+Integración conceptual entre las tres fuentes de datos.
 
-KPIs y visualización exploratoria
+Preparación del entorno analítico para fases posteriores de modelado y BI.
 
-Base lista para análisis profundo y comparativo entre bloques
+Tecnologías utilizadas
 
-Objetivo Profesional
+Python (Pandas, NumPy, Matplotlib, Seaborn), Visual Studio Code, Jupyter Notebook, Power BI, Git y GitHub.
 
-Proyecto orientado a portfolio para roles de Data Analysis aplicados a industrias culturales, entretenimiento y economía creativa.
+Roadmap
 
-Autor
+Consolidar un modelo descriptivo sobre producción, demanda y precios.
 
-Ela Ruiz González
-Data Analyst & Performing Arts Professional
+Desarrollar dashboards interactivos en Power BI.
+
+Incorporar métricas avanzadas: elasticidad, estacionalidad y ciclos de programación.
+
+Explorar modelos predictivos de asistencia o pricing.
